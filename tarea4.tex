@@ -28,7 +28,15 @@
     \begin{enumerate}
         \item {
         Demuestra que el operador de derivada preserva equivalencias, es decir si
-		$\alpha \ = \ \beta$, entonces $\partial_{a} \alpha \ = \ \partial_{a} \beta$.\\
+        $\alpha \ = \ \beta$, entonces $\partial_{a} \alpha \ = \ \partial_{a} \beta$.\\
+        Tenemos que $\alpha \ = \ \beta \iff 
+        \mathcal{L}[\![\alpha]\!] = \mathcal{L}[\![\beta]\!]$. \\
+        Por lo que 
+        \begin{align*}
+            \partial_{a} \alpha \ &= \{v | av \in \mathcal{L}[\![\alpha]\!]\} \\
+                                  &= \{v | av \in \mathcal{L}[\![\beta]\!]\} \\
+                                  &= \partial_{a} \beta
+        \end{align*}
 
             
         }
